@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+body {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+ 
+}
+
+#students {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(129, 123, 244);
+  border-radius: 20px;
+  color: black;
+  max-width: 500px;
+  
+}
+
+#scores {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(158, 233, 158);
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
 }
